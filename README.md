@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Jaimin Chokhawala</h1>
-<h3 align="center">A Tech-Driven Problem Solver and Software engineer (undergraduate) from India.</h3>
+<h3 align="center">A Tech-Driven Problem Solver and Software engineer from India.</h3>
 
 # 💫 About Me:
 🔭 I’m currently working on <b>SiddhiCred - A NFT based certificate issuing software (private)</b><br><br>🌱 I’m currently learning <b>Cloud technologies</b> and <b>Java enterprise backend</b><br><br>👯 Always <b>open for collaboration</b> to develop real-world solutions and software products that address various challenges.<br><br>🎮 I've been technical team member of <a href="https://www.instagram.com/roboconldce/"><b>Team Robocon LDCE</b></a> from Sep 2021 - Mar 2023<br><br>💬 Open to talk and discuss about <b>Web & Cloud, Blockchain, IoT / Embedded </b> and literally anything about Software technologies 😆<br><br>📫 You can contact me here jaimin.chokhawala@gmail.com<br><br>⚡ Fun fact <b>I love technology more than anything!</b> and that has been the core part of my professional success and learning motivation.

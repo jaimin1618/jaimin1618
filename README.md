@@ -30,7 +30,7 @@ What I work on day to day:
 - **Performance at volume.** Runs range from 100K to 6M records, so I spend a fair amount of time tuning API calls, data loads, transforms and queries.
 - **Testing before every release.** JUnit integration and performance tests and Playwright automation, running in Jenkins and GitHub Actions.
 
-The biggest lesson so far: moving data is the easy part. Making it correct on every run, at volume, is where the real work is, and that depends on a solid foundation underneath. The Service Graph Connector framework gives every connector the same infrastructure and data model, so supporting a new platform means building a new connector, not changing the platform or the shared code. Getting that same behaviour from custom software alone would be close to impossible.
+The biggest lesson so far: moving data is the easy part. Making it correct on every run, at volume, is where the real work is, and that depends on a solid foundation underneath. ServiceNow provides that foundation: the CMDB data model, a transform layer (IntegrationHub ETL and RTE), and an identification and reconciliation engine (IRE). Every Service Graph Connector is built on top of it. So supporting a new platform means building a new connector that focuses on that platform's data and entities and maps them to CMDB entities, without reworking the platform underneath. Getting that same behaviour from custom software alone would be close to impossible.
 
 **ServiceNow certifications:** the three that matter most for building Service Graph Connectors and working with the CMDB, IRE and Data Foundations.
 

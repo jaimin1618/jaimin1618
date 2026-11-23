@@ -1,33 +1,84 @@
 ## Hi, I'm Jaimin
 
-Software Engineer at Crest Data, building API and data integrations: connectors that bring API inventory and usage data from API gateway platforms into the ServiceNow CMDB.
+I'm a software engineer at **Crest Data** in Ahmedabad. I build API and data integrations: connectors that bring API inventory and usage data from API gateway platforms into the ServiceNow CMDB, cleaned up and ready for other teams to rely on.
 
-My path so far, most recent first.
+Below is my path so far, most recent first.
 
-### 2024 – now · Crest Data
-Building API Service Graph Connectors: pulling API inventory and usage data from API gateway platforms, reconciling it, and loading it into the ServiceNow CMDB at 100K to 6M records per run. This work is closed source.
+---
 
-### 2023 · Upeya (internship)
-Sole backend engineer on a women's health app. Built the REST API for 37 app screens and flows on Node.js, MongoDB, Redis and AWS. This is where I learned to structure a Node.js backend properly.
+### Crest Data · Software Engineer
+**Jan 2024 – now**
 
-- [nodejs-backend](https://github.com/jaimin1618/nodejs-backend): the project structure I use for fast, secure REST APIs (16 forks)
+Most of my work is on API Service Graph Connectors. Large companies often run their APIs across several API gateway and API management platforms, and each one describes an API in its own way. A connector pulls that data in on a schedule, cleans it up, works out which records belong together, and loads it into the CMDB. That lets teams answer simple questions that are surprisingly hard otherwise: which APIs do we have, how much are they used, and what depends on what.
+
+```mermaid
+flowchart LR
+  A["API gateway and<br/>API management platforms"] -->|scheduled API calls| B["Ingest"]
+  B --> C["Transform<br/>IntegrationHub ETL · RTE"]
+  C --> D["Identify and reconcile<br/>IRE"]
+  D --> E[("ServiceNow CMDB<br/>API classes")]
+```
+
+What I work on day to day:
+
+- **10+ connectors, end to end.** Requirements, data mapping, build, testing, documentation, ServiceNow Store certification, release, and the customer cases that come in afterwards.
+- **Inventory and usage data.** APIs, proxies, endpoints, gateways and consumer access, plus API call metrics so teams can see which APIs carry real traffic and which have gone quiet.
+- **Reconciliation.** Matching records so each API shows up once, linked to the right gateway and endpoints, instead of piling up as duplicates.
+- **Performance at volume.** Runs range from 100K to 6M records, so I spend a fair amount of time tuning API calls, data loads, transforms and queries.
+- **Testing before every release.** JUnit integration and performance tests and Playwright automation, running in Jenkins and GitHub Actions.
+
+The biggest lesson so far: moving data is the easy part. Making it correct on every run, at volume, is where the real work is.
+
+This work is closed source, so there is nothing to link here.
+
+**Core skills:** `JavaScript` `Java` `REST APIs` `ETL` `IntegrationHub ETL` `IRE` `RTE` `CMDB` `CSDM` `Flow Designer` `Scripted REST APIs` `JUnit` `Playwright` `ATF` `Jenkins` `GitHub Actions` `Claude` `Devin`
+
+---
+
+### Upeya · Software Engineer Intern
+**Apr 2023 – Jul 2023 · Remote**
+
+My first real backend job, and I was the only backend engineer on it. The product was a women's health tracking and management app, and I built its REST API from the first endpoint to production.
+
+- **37 app screens and flows.** OTP login, token-based auth, password recovery, health and symptom tracking, and daily insights.
+- **10+ backend modules.** Authentication, symptom tracking, notifications, content delivery, and nearby-hospital discovery using location services.
+- **Running in production on AWS.** EC2, S3, SES and SNS, behind Nginx and PM2, with MongoDB and Redis.
+- **Documentation.** API docs and notes on key design decisions for the team.
+
+Being the only backend engineer taught me to care about structure early. The way I organise a Node.js project today came out of this internship, and I turned it into a template:
+
+- [nodejs-backend](https://github.com/jaimin1618/nodejs-backend): Express and MongoDB project structure with JWT auth and request validation (16 forks)
 - [rating-review-project-backend](https://github.com/jaimin1618/rating-review-project-backend): Node.js REST backend
 
-### 2021 – 2023 · ABU Robocon, LDCE team
-Part of a 19-member team that built two robots and reached the 2022 national contest. I built the IoT app that controlled the robots and worked on microcontroller communication and computer vision.
+**Core skills:** `Node.js` `Express.js` `MongoDB` `Redis` `REST API design` `JWT auth` `AWS (EC2, S3, SES, SNS)` `Nginx` `PM2`
 
-- [three-omni-wheel-vehicle-control](https://github.com/jaimin1618/three-omni-wheel-vehicle-control): holonomic drive with PID control, PS3 and Android control
+---
+
+### ABU Robocon · LDCE team
+**2021 – 2023**
+
+One of 19 students who built two robots for DD-Robocon 2022 and made it to the national contest at IIT Delhi. I built the IoT app used to control the robots, and worked on communication between microcontrollers and on computer vision.
+
+- [three-omni-wheel-vehicle-control](https://github.com/jaimin1618/three-omni-wheel-vehicle-control): holonomic drive with PID control, driven from a PS3 controller or an Android app
 - [embedded-programming](https://github.com/jaimin1618/embedded-programming): Arduino and Atmel microcontrollers
 
-### 2020 – 2024 · L.D. College of Engineering
-Started with the basics and kept building: HTML/CSS, then C++ and DSA, then PHP and MVC backends, then React. Final years went into blockchain projects and hackathons, including a first prize at the SSIP Hackathon (Revenue Department challenge) and the Kavach 2023 national cybersecurity hackathon finale.
+**Core skills:** `C++` `Arduino` `ESP8266` `MPU6050` `PID control` `MIT App Inventor`
 
-- [DSA-library](https://github.com/jaimin1618/DSA-library) · [data_structures_and_algorithms](https://github.com/jaimin1618/data_structures_and_algorithms): C++ foundations, 540+ LeetCode problems
+---
+
+### L.D. College of Engineering · B.Tech, Information Technology
+**2020 – 2024**
+
+Where I learned by building. HTML and CSS first, then C++ and data structures, then PHP backends, then React, and blockchain projects in the last two years. Along the way, our team won first prize at the SSIP Hackathon (Revenue Department challenge) and reached the grand finale of Kavach 2023, a national cybersecurity hackathon.
+
+- [DSA-library](https://github.com/jaimin1618/DSA-library) · [data_structures_and_algorithms](https://github.com/jaimin1618/data_structures_and_algorithms): C++ foundations, and 540+ problems on LeetCode
 - [php-rest-api-template](https://github.com/jaimin1618/php-rest-api-template) · [ldce-grievance](https://github.com/jaimin1618/ldce-grievance): first backends, MVC and REST
 - [contact-management-app](https://github.com/jaimin1618/contact-management-app): React and Redux Toolkit
 - SiddhiCred, a blockchain credential platform: [frontend](https://github.com/jaimin1618/siddhicred-frontend) · [backend](https://github.com/jaimin1618/siddhicred-backend) · [smart contract](https://github.com/jaimin1618/siddhicred-smart-contract)
 - [doconsent_dapp](https://github.com/jaimin1618/doconsent_dapp): React dApp with IPFS storage
 
-**Core skills:** Java · JavaScript · Node.js · REST APIs · ETL · MongoDB · Redis · JUnit · Playwright · Jenkins · GitHub Actions · AWS
+**Core skills:** `C++` `Data structures & algorithms` `PHP` `Laravel` `MVC` `React` `Redux Toolkit` `Solidity` `Ethereum` `IPFS`
+
+---
 
 [LinkedIn](https://www.linkedin.com/in/jaimin1618) · [LeetCode](https://leetcode.com/u/cipher1618/) · jaimin.chokhawala@gmail.com

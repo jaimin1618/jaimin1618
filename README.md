@@ -11,6 +11,9 @@ Below is my path so far, most recent first.
 
 Most of my work is on API Service Graph Connectors. Large companies often run their APIs across several API gateway and API management platforms, and each one describes an API in its own way. A connector pulls that data in on a schedule, cleans it up, works out which records belong together, and loads it into the CMDB. That lets teams answer simple questions that are surprisingly hard otherwise: which APIs do we have, how much are they used, and what depends on what.
 
+> [!NOTE]
+> The code is closed source, but the products are public. The connectors I build and maintain are part of ServiceNow's **[API Service Graph Connectors](https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/api-sgc-available.html)** portfolio, which brings API data from API gateway and API management platforms into the CMDB.
+
 ```mermaid
 flowchart LR
   A["API gateway and<br/>API management platforms"] -->|scheduled API calls| B["Ingest"]
@@ -28,8 +31,6 @@ What I work on day to day:
 - **Testing before every release.** JUnit integration and performance tests and Playwright automation, running in Jenkins and GitHub Actions.
 
 The biggest lesson so far: moving data is the easy part. Making it correct on every run, at volume, is where the real work is.
-
-This work is closed source, so there is nothing to link here.
 
 **Core skills:** `JavaScript` `Java` `REST APIs` `ETL` `IntegrationHub ETL` `IRE` `RTE` `CMDB` `CSDM` `Flow Designer` `Scripted REST APIs` `JUnit` `Playwright` `ATF` `Jenkins` `GitHub Actions` `Claude` `Devin`
 

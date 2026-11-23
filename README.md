@@ -1,34 +1,33 @@
-# Hi, I'm Jaimin 👋
-Software Engineer focused on building reliable software and solving real problems.
+## Hi, I'm Jaimin
 
-Over the past few years, I’ve worked across backend, cloud, blockchain, and embedded projects — experience that has strengthened my problem-solving skills and grounded my approach to building reliable software.
+Software Engineer at Crest Data, building API and data integrations: connectors that bring API inventory and usage data from API gateway platforms into the ServiceNow CMDB.
 
-Currently, I build backend products used by large-scale businesses, where performance, correctness, and maintainability matter.
+This is how I got here.
 
----
+### 2020 – 2024 · L.D. College of Engineering
+Started with the basics and kept building: HTML/CSS, then C++ and DSA, then PHP and MVC backends, then React. Final years went into blockchain projects and hackathons, including a first prize at the SSIP Hackathon (Revenue Department challenge) and the Kavach 2023 national cybersecurity hackathon finale.
 
-### What you can expect from me
+- [DSA-library](https://github.com/jaimin1618/DSA-library) · [data_structures_and_algorithms](https://github.com/jaimin1618/data_structures_and_algorithms): C++ foundations, 540+ LeetCode problems
+- [php-rest-api-template](https://github.com/jaimin1618/php-rest-api-template) · [ldce-grievance](https://github.com/jaimin1618/ldce-grievance): first backends, MVC and REST
+- [contact-management-app](https://github.com/jaimin1618/contact-management-app): React and Redux Toolkit
+- SiddhiCred, a blockchain credential platform: [frontend](https://github.com/jaimin1618/siddhicred-frontend) · [backend](https://github.com/jaimin1618/siddhicred-backend) · [smart contract](https://github.com/jaimin1618/siddhicred-smart-contract)
+- [doconsent_dapp](https://github.com/jaimin1618/doconsent_dapp): React dApp with IPFS storage
 
-• Strong foundation in data structures, algorithms, and core computer science  
-• Thoughtful approach to system design — I prefer simple, reliable solutions  
-• Write clean, testable code meant to last  
-• Comfortable taking ownership from idea → design → production  
-• Always learning, always improving  
+### 2021 – 2023 · ABU Robocon, LDCE team
+Part of a 19-member team that built two robots and reached the 2022 national contest. I built the IoT app that controlled the robots and worked on microcontroller communication and computer vision.
 
----
+- [three-omni-wheel-vehicle-control](https://github.com/jaimin1618/three-omni-wheel-vehicle-control): holonomic drive with PID control, PS3 and Android control
+- [embedded-programming](https://github.com/jaimin1618/embedded-programming): Arduino and Atmel microcontrollers
 
-### Tech I work with
+### 2023 · Upeya (internship)
+Sole backend engineer on a women's health app. Built the REST API for 37 app screens and flows on Node.js, MongoDB, Redis and AWS. This is where I learned to structure a Node.js backend properly.
 
-**Languages:** C++, JavaScript (Node.js), Python, Java  
-**Backend & DB:** REST APIs, MongoDB, MySQL, Redis  
-**Cloud:** AWS, Linux  
-**Blockchain:** Solidity, Ethereum  
-**Embedded & IoT:** Arduino, ESP32, Raspberry Pi  
+- [nodejs-backend](https://github.com/jaimin1618/nodejs-backend): the project structure I use for fast, secure REST APIs (16 forks)
+- [rating-review-project-backend](https://github.com/jaimin1618/rating-review-project-backend): Node.js REST backend
 
-(I care less about tools and more about understanding the technology and applications behind them.)
+### 2024 – now · Crest Data
+Building API Service Graph Connectors: pulling API inventory and usage data from API gateway platforms, reconciling it, and loading it into the ServiceNow CMDB at 100K to 6M records per run. This work is closed source.
 
----
+**Core skills:** Java · JavaScript · Node.js · REST APIs · ETL · MongoDB · Redis · JUnit · Playwright · Jenkins · GitHub Actions · AWS
 
-Always open to meaningful conversations about engineering and technology.
-
-[LinkedIn](https://www.linkedin.com/in/jaimin1618/)
+[LinkedIn](https://www.linkedin.com/in/jaimin1618) · [LeetCode](https://leetcode.com/u/cipher1618/) · jaimin.chokhawala@gmail.com

@@ -26,11 +26,11 @@ What I work on day to day:
 
 - **10+ connectors, end to end.** Requirements, data mapping, build, testing, documentation, ServiceNow Store certification, release, and the customer cases that come in afterwards.
 - **Inventory and usage data.** APIs, proxies, endpoints, gateways and consumer access, plus API call metrics so teams can see which APIs carry real traffic and which have gone quiet.
-- **Reconciliation.** Matching records so each API shows up once, linked to the right gateway and endpoints, instead of piling up as duplicates.
+- **Identification and reconciliation.** Identifying each incoming record and reconciling it against what is already in the CMDB, so each API shows up once, linked to the right gateway and endpoints, instead of piling up as duplicates.
 - **Performance at volume.** Runs range from 100K to 6M records, so I spend a fair amount of time tuning API calls, data loads, transforms and queries.
 - **Testing before every release.** JUnit integration and performance tests and Playwright automation, running in Jenkins and GitHub Actions.
 
-The biggest lesson so far: moving data is the easy part. Making it correct on every run, at volume, is where the real work is.
+The biggest lesson so far: moving data is the easy part. Making it correct on every run, at volume, is where the real work is, and that depends on a solid foundation underneath. The Service Graph Connector framework gives every connector the same infrastructure and data model, so supporting a new platform means building a new connector, not changing the platform or the shared code. Getting that same behaviour from custom software alone would be close to impossible.
 
 **ServiceNow certifications:** the three that matter most for building Service Graph Connectors and working with the CMDB, IRE and Data Foundations.
 

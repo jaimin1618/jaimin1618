@@ -7,7 +7,7 @@ Below is my path so far, most recent first.
 ---
 
 ### Crest Data · Software Engineer
-**Jan 2024 – now**
+**Jan 2024 – now · Ahmedabad**
 
 Most of my work is on API Service Graph Connectors. Large companies often run their APIs across several API gateway and API management platforms, and each one describes an API in its own way. A connector pulls that data in on a schedule, cleans it up, works out which records belong together, and loads it into the CMDB. That lets teams answer simple questions that are surprisingly hard otherwise: which APIs do we have, how much are they used, and what depends on what.
 
@@ -32,26 +32,33 @@ What I work on day to day:
 
 The biggest lesson so far: moving data is the easy part. Making it correct on every run, at volume, is where the real work is.
 
-**Core skills:** `JavaScript` `Java` `REST APIs` `ETL` `IntegrationHub ETL` `IRE` `RTE` `CMDB` `CSDM` `Flow Designer` `Scripted REST APIs` `JUnit` `Playwright` `ATF` `Jenkins` `GitHub Actions` `Claude` `Devin`
+**ServiceNow certifications:** the three that matter most for building Service Graph Connectors and working with the CMDB, IRE and Data Foundations.
+
+- [Certified Implementation Specialist – Data Foundations (CMDB and CSDM)](https://www.credly.com/badges/36a41875-de1c-44e6-b2ee-349433064d44) · CIS-DF
+- [Certified Application Developer](https://www.credly.com/badges/4982f3c1-2302-4bc3-a22e-d59cfc076999) · CAD
+- [Certified System Administrator](https://www.credly.com/badges/9c51a5cc-c8c1-47f3-84f8-7a93b7c5482f) · CSA
+
+**Core skills:** `JavaScript` &nbsp; `Java` &nbsp; `REST APIs` &nbsp; `ETL` &nbsp; `IntegrationHub ETL` &nbsp; `IRE` &nbsp; `RTE` &nbsp; `CMDB` &nbsp; `Flow Designer` &nbsp; `Scripted REST APIs` &nbsp; `JUnit` &nbsp; `Playwright` &nbsp; `ATF` &nbsp; `Jenkins` &nbsp; `GitHub Actions` &nbsp; `Claude` &nbsp; `Devin`
 
 ---
 
 ### Upeya · Software Engineer Intern
-**Apr 2023 – Jul 2023 · Remote**
+**Apr 2023 – Jul 2023 · Gandhinagar (Remote)**
 
-My first real backend job, and I was the only backend engineer on it. The product was a women's health tracking and management app, and I built its REST API from the first endpoint to production.
+My first real backend job. I was the only backend engineer on a women's health tracking and management app, and I owned the backend from the first endpoint to production, including full AWS access to set up and deploy both the backend and database servers.
+
+It was also my first time working closely with frontend engineers, one building the iOS app and one building the Android app. I learned a lot about designing APIs that mobile apps can actually build against, and about keeping separate test and production environments healthy.
 
 - **37 app screens and flows.** OTP login, token-based auth, password recovery, health and symptom tracking, and daily insights.
 - **10+ backend modules.** Authentication, symptom tracking, notifications, content delivery, and nearby-hospital discovery using location services.
-- **Running in production on AWS.** EC2, S3, SES and SNS, behind Nginx and PM2, with MongoDB and Redis.
+- **Test and production on AWS.** Deployed and maintained the backend and database servers on EC2, with S3 for storage, SES for email and SNS for notifications, running behind Nginx and PM2.
 - **Documentation.** API docs and notes on key design decisions for the team.
 
 Being the only backend engineer taught me to care about structure early. The way I organise a Node.js project today came out of this internship, and I turned it into a template:
 
 - [nodejs-backend](https://github.com/jaimin1618/nodejs-backend): Express and MongoDB project structure with JWT auth and request validation (16 forks)
-- [rating-review-project-backend](https://github.com/jaimin1618/rating-review-project-backend): Node.js REST backend
 
-**Core skills:** `Node.js` `Express.js` `MongoDB` `Redis` `REST API design` `JWT auth` `AWS (EC2, S3, SES, SNS)` `Nginx` `PM2`
+**Core skills:** `Node.js` &nbsp; `Express.js` &nbsp; `MongoDB` &nbsp; `Redis` &nbsp; `REST API design` &nbsp; `JWT auth` &nbsp; `AWS EC2` &nbsp; `S3` &nbsp; `SES` &nbsp; `SNS` &nbsp; `Nginx` &nbsp; `PM2`
 
 ---
 
@@ -63,12 +70,12 @@ One of 19 students who built two robots for DD-Robocon 2022 and made it to the n
 - [three-omni-wheel-vehicle-control](https://github.com/jaimin1618/three-omni-wheel-vehicle-control): holonomic drive with PID control, driven from a PS3 controller or an Android app
 - [embedded-programming](https://github.com/jaimin1618/embedded-programming): Arduino and Atmel microcontrollers
 
-**Core skills:** `C++` `Arduino` `ESP8266` `MPU6050` `PID control` `MIT App Inventor`
+**Core skills:** `C++` &nbsp; `Arduino` &nbsp; `ESP8266` &nbsp; `MPU6050` &nbsp; `PID control` &nbsp; `MIT App Inventor`
 
 ---
 
 ### L.D. College of Engineering · B.Tech, Information Technology
-**2020 – 2024**
+**2020 – 2024 · Ahmedabad**
 
 Where I learned by building. HTML and CSS first, then C++ and data structures, then PHP backends, then React, and blockchain projects in the last two years. Along the way, our team won first prize at the SSIP Hackathon (Revenue Department challenge) and reached the grand finale of Kavach 2023, a national cybersecurity hackathon.
 
@@ -78,8 +85,8 @@ Where I learned by building. HTML and CSS first, then C++ and data structures, t
 - SiddhiCred, a blockchain credential platform: [frontend](https://github.com/jaimin1618/siddhicred-frontend) · [backend](https://github.com/jaimin1618/siddhicred-backend) · [smart contract](https://github.com/jaimin1618/siddhicred-smart-contract)
 - [doconsent_dapp](https://github.com/jaimin1618/doconsent_dapp): React dApp with IPFS storage
 
-**Core skills:** `C++` `Data structures & algorithms` `PHP` `Laravel` `MVC` `React` `Redux Toolkit` `Solidity` `Ethereum` `IPFS`
+**Core skills:** `C++` &nbsp; `Data structures & algorithms` &nbsp; `PHP` &nbsp; `Laravel` &nbsp; `MVC` &nbsp; `React` &nbsp; `Redux Toolkit` &nbsp; `Solidity` &nbsp; `Ethereum` &nbsp; `IPFS`
 
 ---
 
-[LinkedIn](https://www.linkedin.com/in/jaimin1618) · [LeetCode](https://leetcode.com/u/cipher1618/) · jaimin.chokhawala@gmail.com
+[LinkedIn](https://www.linkedin.com/in/jaimin1618) · [LeetCode](https://leetcode.com/u/cipher1618/)
